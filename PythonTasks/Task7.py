@@ -1,7 +1,7 @@
 __author__ = "Lisoferma"
 
 # Задание №335в Дано натуральное число n. Вычислить сумму 1 / (k^2)!, где k от 1 до n.
-# https://ivtipm.github.io/Programming/Glava07/index07.htm#z178
+# https://ivtipm.github.io/Programming/Glava10/index10.htm#z335
 
 from Modules import task7_module
 
