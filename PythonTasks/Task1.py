@@ -6,8 +6,8 @@ __author__ = "Lisoferma"
 from math import *
 
 
-def get_polygon_perimeter(corners, radius):
-    """Получить периметр правильного n-угольника,
+def get_polygon_perimeter(corners: int, radius: float):
+    """Возвращает периметр правильного n-угольника,
     описанного около окружности радиуса r.
 
     corners: количество углов n-угольника.

@@ -8,7 +8,7 @@ __author__ = "Lisoferma"
 # https://ivtipm.github.io/Programming/Glava03/index03.htm#z76
 
 
-def is_one_color(x1, y1, x2, y2):
+def is_one_color(x1: int, y1: int, x2: int, y2: int):
     """Являются ли поля (x1, y1) и (x2, y2)
     полями одного цвета на шахматной доске.
 
@@ -16,6 +16,8 @@ def is_one_color(x1, y1, x2, y2):
     y1: y первого поля.
     x2: x второго поля.
     y2: y второго поля.
+
+    Возвращает: true если являются, иначе false.
     """
     return (x1 + y1 + x2 + y2) % 2 == 0
 
