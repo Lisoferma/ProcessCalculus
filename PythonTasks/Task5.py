@@ -7,8 +7,14 @@ __author__ = "Lisoferma"
 from Modules import list_service, task5_module
 
 
+# Список чисел, задаваемых пользователем
 list_a = list()
+
+# Размер списка, задаваемый пользователем
 n: int
+
+# Результат суммы
+result: float
 
 print("Даны натуральное число n, действительные числа a1,..., an.\n"
       "Вычислить: сумму a[i] / i!, где i от 0 до n.")

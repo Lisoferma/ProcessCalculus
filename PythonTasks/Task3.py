@@ -22,6 +22,12 @@ def is_one_color(x1: int, y1: int, x2: int, y2: int):
     return (x1 + y1 + x2 + y2) % 2 == 0
 
 
+# Координаты первого и второго поля на шахматной доске, задаваемые пользователем
+input_x1: int
+input_y1: int
+input_x2: int
+input_y2: int
+
 print("Определить, являются ли поля (x1, y1) и (x2, y2) полями одного цвета на шахматной доске.")
 
 input_x1 = int(input('Введите x1: '))

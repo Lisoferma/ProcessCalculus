@@ -5,6 +5,11 @@ __author__ = "Lisoferma"
 # https://ivtipm.github.io/Programming/Glava02/index02.htm#z37
 
 
+# Числа задаваемые пользователем
+a: float
+b: float
+c: float
+
 print("Удвоить числа a, b, c, если a ≥ b ≥ c, и заменить их абсолютными значениями, если это не так.")
 
 a = float(input('Введите a: '))

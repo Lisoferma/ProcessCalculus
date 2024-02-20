@@ -16,6 +16,12 @@ def get_polygon_perimeter(corners: int, radius: float):
     return 2 * radius * corners * tan(pi / corners)
 
 
+# Количество углов n-угольника, задаваемое пользователем
+input_corners: int
+
+# Радиус окружности, задаваемый пользователем
+input_radius: float
+
 print("Получить периметр правильного n-угольника, описанного около окружности радиуса r.")
 
 input_corners = int(input('Введите количество углов n-угольника: '))
