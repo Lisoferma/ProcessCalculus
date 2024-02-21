@@ -1,7 +1,12 @@
 __author__ = "Lisoferma"
 
+import sys
 import math
 import unittest
+
+# sys.path += ["C:\\Users\\User\\Desktop\\PC\\PythonTasks\\Modules"]
+sys.path += ["C:\\Users\\User\\Desktop\\PC\\PythonTasks"]
+
 from Modules import task5_module as module
 
 

@@ -12,7 +12,8 @@ def calculate_sum(data: list):
     """
     result = 0
 
-    for i in range(1, len(data)):
+    # исп пред значение факториала
+    for i in range(0, len(data)):
         result += data[i] / math.factorial(i)
 
     return result

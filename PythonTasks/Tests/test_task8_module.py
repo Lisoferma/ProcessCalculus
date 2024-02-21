@@ -1,7 +1,11 @@
 __author__ = "Lisoferma"
 
+import sys
 import numpy as np
 import unittest
+
+sys.path += ["C:\\Users\\User\\Desktop\\PC\\PythonTasks"]
+
 from Modules import task8_module as module
 
 

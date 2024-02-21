@@ -12,6 +12,7 @@ def calculate_sum(n: int):
     """
     result = 0
 
+    # оптимизировать
     for i in range(1, n + 1):
         result += 1 / math.factorial(i * i)
 
