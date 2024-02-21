@@ -6,8 +6,8 @@ __author__ = "Lisoferma"
 def input_list(list_to_input: list, size: int):
     """Ввод пользователем через консоль содержимого списка.
 
-    list: список для ввода содержимого.
-    size: количество элементов для ввода.
+    :param list_to_input: список для ввода содержимого.
+    :param size: количество элементов для ввода.
     """
     for i in range(0, size):
         input_item = float(input(f"[{i}]: "))

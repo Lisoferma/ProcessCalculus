@@ -10,8 +10,8 @@ def get_polygon_perimeter(corners: int, radius: float):
     """Возвращает периметр правильного n-угольника,
     описанного около окружности радиуса r.
 
-    corners: количество углов n-угольника.
-    radius: радиус окружности.
+    :param corners: количество углов n-угольника.
+    :param radius: радиус окружности.
     """
     return 2 * radius * corners * tan(pi / corners)
 

@@ -6,7 +6,7 @@ __author__ = "Lisoferma"
 def count_multiple_3_not_5(data: list):
     """Подсчитать количество чисел в списке кратных 3 и не кратных 5.
 
-    data: список чисел.
+    :param data: список чисел.
     """
     result: int = 0
 
