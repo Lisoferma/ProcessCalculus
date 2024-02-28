@@ -1,11 +1,11 @@
 __author__ = "Lisoferma"
 
+import os
 import sys
 import math
 import unittest
 
-# sys.path += ["C:\\Users\\User\\Desktop\\PC\\PythonTasks\\Modules"]
-sys.path += ["C:\\Users\\User\\Desktop\\PC\\PythonTasks"]
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from Modules import task5_module as module
 
