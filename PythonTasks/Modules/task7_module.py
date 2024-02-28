@@ -10,10 +10,19 @@ def calculate_sum(n: int):
 
     :param n: количество итераций.
     """
-    result = 0
+    if n == 0: return 0
 
-    # оптимизировать
-    for i in range(1, n + 1):
-        result += 1 / math.factorial(i * i)
+    result = 1
+    last_factorial = 1
+    last_sqr = 1
+
+    for i in range(2, n + 1):
+        current_sqr = i * i
+
+        for i in range(last_sqr + 1, current_sqr + 1):
+            last_factorial *= i
+
+        last_sqr = current_sqr
+        result += 1 / last_factorial
 
     return result
