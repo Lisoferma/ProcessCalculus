@@ -1,10 +1,11 @@
 __author__ = "Lisoferma"
 
+import os
 import sys
 import numpy as np
 import unittest
 
-sys.path += ["C:\\Users\\User\\Desktop\\PC\\PythonTasks"]
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from Modules import task8_module as module
 
@@ -25,6 +26,12 @@ class TestTask8Module(unittest.TestCase):
         module.get_b_array(init, result)
 
         self.assertTrue(np.array_equal(expected, result))
+
+    def test_get_b_array__array_size_zero__raise_exception(self):
+        init = np.zeros((0, 0), float)
+        result = np.zeros((0, 0), float)
+
+        self.assertRaises(Exception, module.get_b_array, init, result)
 
 
 if __name__ == '__main__':
