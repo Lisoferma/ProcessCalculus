@@ -5,6 +5,7 @@ import sys
 import numpy as np
 import unittest
 
+# path - список путей к папкам с модулями
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from Modules import task8_module as module
