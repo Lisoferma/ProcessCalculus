@@ -22,13 +22,13 @@ b: np.ndarray
 rows = int(input("Введите количество строк массива: "))
 cols = int(input("Введите количество столбцов массива: "))
 
-a = np.zeros((cols, rows), dtype=float)
-b = np.zeros((cols, rows), dtype=float)
+a = np.zeros((cols, rows), float)
+b = np.zeros((cols, rows), float)
 
 array_service.input_array(a)
 task8_module.get_b_array(a, b)
 
-print("Массив A:")
+print("\nМассив A:")
 print(a)
 
 print("\nМассив B:")
